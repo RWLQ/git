@@ -1,0 +1,52 @@
+# ===== 密钥 / 凭据（禁止上传）=====
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# 环境变量 / 本地配置
+.env
+.env.*
+*.env
+secrets.*
+*credentials*
+*secret*
+config.local.*
+*.local.json
+*.local.yml
+
+# ===== 通用忽略 =====
+# 依赖
+node_modules/
+vendor/
+.venv/
+venv/
+
+# 构建产物
+dist/
+build/
+out/
+target/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
